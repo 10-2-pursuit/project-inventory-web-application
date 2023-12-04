@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ALBUMS INVENTORY -- OG NASA MERCH</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Novelty Items Inventory</h1>
+  </header>
+  <div class="container">
+    <div class="form">
+      <h2>Add New Resource</h2>
+      <form id="resource-form">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+        </div>
+        <div>
+          <label for="price">Price:</label>
+          <input type="number" id="price" required>
+        </div>
+        <div>
+          <label for="stock">In Stock:</label>
+          <select id="stock" required>
+            <option value="">-- Select --</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+    <div class="resources">
+      <h2>Existing Resources</h2>
+      <div class="resource">
+       
+        <div class="resourceInfo">
+        <h3>Album 1</h3>
+        <p>Name: OG Nasa -- Completed</p>
+        <p>Price: $18.99</p>
+        <p>Released: 2020</p>
+        <p>In Stock: Yes</p>
+      </div>
+      <button class="remove-btn">Remove</button>
+      <div class="resourceImage">
+        <img src="https://f4.bcbits.com/img/a3793724544_2.jpg" alt="resource"/>
+      </div>
+      
+      </div>
+
+      <div class="resource">
+        <div class="resourceInfo">
+        <h3>Album  3</h3>
+        <p class="name">Name: Homeboy Rus -- Trap Warfare</p>
+        <p>Price: $11.99</p>
+        <p>Released: 2017</p>
+        <p>In Stock: Yes</p>
+      </div>
+      <button class="remove-btn">Remove</button>
+      <div class="resourceImage">
+        <img src="https://i1.sndcdn.com/artworks-000234379400-eg9hem-t240x240.jpg" alt="resource"
+        />
+      </div>
+      
+      </div>
+
+      <div class="resource">
+        
+        <div class="resourceInfo">
+        <h3>Album 2</h3>
+        <p>Name: Homeboy Rus -- Fresh Urban City Kid The Mixtape</p>
+        <p>Price: $8.99</p>
+        <p>Released: 2013</p>
+        <p>In Stock: No</p>
+        </div>
+        <button class="remove-btn">Remove</button>
+        <div class="resourceImage">
+          <img src="https://img.broadtime.com/418457533519:500.webp" alt="resource"
+          />
+        </div>
+       
+      </div>
+
+
+      
+    </div>
+    
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
